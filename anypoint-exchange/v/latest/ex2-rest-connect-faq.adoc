@@ -74,7 +74,7 @@ securitySchemes:
 ----
 OAuth 2.0 Authorization Code Example:
 [source,xml,linenums]
-
+----
 #%RAML 1.0
 version: v1
 title: Github API
@@ -90,11 +90,7 @@ securitySchemes:
         Authorization: 
           description: |
             Used to send a valid OAuth 2 access token.
-      queryParameters: 
-        access_token: 
-          description: |
-            Used to send a valid OAuth 2 access token. Do not use together with
-            the "Authorization" header
+      
       responses: 
         404: 
           description: Unauthorized
