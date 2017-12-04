@@ -247,8 +247,9 @@ Applications that are deployed via the CLI can be viewed and managed on Runtime 
 [TIP]
 For more information on these or other commands see link:/runtime-manager/anypoint-platform-cli[Anypoint Platform CLI].
 
+== Deploying via the REST APIs
 
-
+You can also deploy Mule applications to various targets (CloudHub workers or customer-hosted Mule runtimes) using the Anypoint Platform REST APIs. Refer to the link:https://anypoint.mulesoft.com/apiplatform/anypoint-platform/#/portals[Anypoint Platform Developer Portal] for these Anypoint Platform REST APIs for detailed documentation on each of the Anypoint Platform management REST APIs, including API portals where you can try out the various REST API calls. 
 
 == See Also
 
@@ -269,3 +270,4 @@ For more information on these or other commands see link:/runtime-manager/anypoi
 * link:/runtime-manager/secure-application-properties[Secure Application Properties]
 * link:/runtime-manager/virtual-private-cloud[Virtual Private Cloud]
 * link:/runtime-manager/penetration-testing-policies[Penetration Testing Policies]
+* link:https://anypoint.mulesoft.com/apiplatform/anypoint-platform/#/portals[Anypoint Platform Developer Portal]
