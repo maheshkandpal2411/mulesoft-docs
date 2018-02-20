@@ -7,6 +7,40 @@ _Select_
 
 The Anypoint Connector for Salesforce Analytics Cloud lets you connect to the Salesforce Analytics Cloud application using the Salesforce External Data API. The connector exposes convenient methods for creating and populating data sets into Salesforce Analytics Cloud system.
 
+== Version 2.2.0 - February 20, 2018
+
+Release notes for version 2.2.0 of the Salesforce Analytics Cloud connector. These release notes accompany the
+link:/mule-user-guide/v/3.8/salesforce-analytics-cloud-connector[Salesforce Analytics Cloud Connector User Guide].
+
+=== Version 2.2.0 Compatibility
+
+The Salesforce Analytics Cloud connector is compatible with:
+
+[%header%autowidth.spread]
+|======================
+|Application/Service |Version
+|Mule Runtime | 3.5.0 and higher
+|External Data API | v36.0
+|======================
+
+==== Version 2.2.0 Features
+
+* Added support to allow wildcardmetadata/*.json for OAuth 2.0 JWT Bearer, and OAuth 2.0 SAML Bearer.
++
+A wildcard can now be used for the Metadata File Name field when configuring the connector's Global Basic authentication.
+
+* Added support to disable session invalidation.
++
+The authentication configuration now allows the user to disable session invalidation by checking the Disable session invalidation checkbox.
+
+=== Version 2.2.0 Fixed in this Release
+
+None.
+
+=== Version 2.2.0 Known Issues
+
+None.
+
 == Version 2.1.1 - January 11, 2018
 
 Release notes for version 2.1.1 of the Salesforce Analytics Cloud connector. 
