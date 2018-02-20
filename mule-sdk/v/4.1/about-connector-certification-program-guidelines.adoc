@@ -62,8 +62,3 @@ urisdictions. (Capitalized terms shall have same definition as in the Certified 
 == Development and Certification
 
 Share with us which connector you want to develop and get certified by filling out the MuleSoft Certified Connector Submission. We will contact you with further information.
-
-== See Also
-
-* https://www.mulesoft.com/platform/cloud-connectors/certified[MuleSoft Connector Certification].
-* https://docs.google.com/forms/d/e/1FAIpQLSfI8SPovx0WpEHxoeksqYSOFSlkweJJAmIUqTMdppg23_YWIg/viewform?c=0&w=1[MuleSoft Certified Connector Submission].
